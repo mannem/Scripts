@@ -22,7 +22,7 @@ then
     echo $(($NR_OF_OPTIONS + 1)) | sudo alternatives --config java
 
     # Set some variables
-    export JAVA_HOME=/usr/java/default/bin/java
+    export JAVA_HOME=/usr/java/default
     export JRE_HOME=/usr/java/default/jre
     export PATH=$PATH:/usr/java/default/bin
 fi
